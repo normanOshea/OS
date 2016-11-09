@@ -52,6 +52,6 @@ Depuis que les mises à jour du BIOS peuvent être réalisées à la volée via 
 
 ##Sources
 
-- [Wikipédia BIOS](https://fr.wikipedia.org/wiki/Basic_Input_Output_System)
 - [Wiki linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
-
+- [IBM : Inside the linux boot process](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
+- [Optimisation du bios](http://www.commentcamarche.net/contents/1022-optimisation-du-bios)
