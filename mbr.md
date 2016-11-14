@@ -35,7 +35,7 @@ En claire :
 Sur mon disque dur, voici le résultat : 
 
 
-![capture MBR linux](http://drive.google.com/open?id=0ByYeiSkwi0AzY0pubkxMajJIOFk)
+![capture](https://drive.google.com/open?id=0ByYeiSkwi0AzY0pubkxMajJIOFk)
 
 
 
