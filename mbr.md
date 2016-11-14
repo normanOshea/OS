@@ -13,7 +13,14 @@ Accéder aux adresses mémoire du **MBR** est délicat, et la moindre modificati
 
 ###Structure du MBR
 
-Le MBR contient 
+Le MBR contient une routine d'amorçage dont le but est de charger le système d'exploitation (ou le *boot loader* si il existe) présent sur la partitions active. 
+
+Le MBR fait partie de l'enssemble *chargeur* ou *loader* et il a pour fonction de lancer le boot secondaire. 
+
+####En détails
+==============
+
+
 
 ##Sources
 
