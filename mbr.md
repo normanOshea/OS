@@ -35,7 +35,9 @@ En claire :
 Sur mon disque dur, voici le résultat : 
 
 
-![capture](https://drive.google.com/file/d/0ByYeiSkwi0AzY0pubkxMajJIOFk/view)
+![capture MBR linux](https://drive.google.com/file/d/0ByYeiSkwi0AzY0pubkxMajJIOFk/view)
+*affichage du MBR sous linux*
+
 
 
 
