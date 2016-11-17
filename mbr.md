@@ -36,7 +36,7 @@ Sur mon disque dur, voici le résultat :
 
 
 ![capture MBR linux](https://drive.google.com/file/d/0ByYeiSkwi0AzY0pubkxMajJIOFk/view)
-*affichage du MBR sous linux*
+*Affichage du MBR sous linux*
 
 On remarque les valeurs **55AA** à la fin du MBR. C'est la *marque* d'un media amorçable.
 
