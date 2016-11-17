@@ -14,14 +14,15 @@ La configuration de LILO se situe dans le fichier /etc/lilo.conf
 Après avoir modifié ce fichier, ne pas oublier de relancer la commande:
 `#Lilo                                         `
 Codes erreurs affichés par LILO
-| Etape                                                                                                               	| Affichage en cas d'erreur 	|
-|---------------------------------------------------------------------------------------------------------------------	|---------------------------	|
-| Le chargeur d'amorçage de la partie 1 est chargé en mémoire et démarré                                              	| L                         	|
-| Le chargeur d'amorçage de la partie 2 est chargé en mémoire                                                         	| LI                        	|
-| Le chargeur d'amorçage de la partie 2 a été chargé à une adresse incorrecte                                         	| LIL?                      	|
-| Démarrage de la partie 2 du chargeur d'amorçage OK, mais la GDT (table des descripteurs de segment) est introuvable 	| LIL                       	|
-| La GDT est corrompue                                                                                                	| LIL-                      	|
-| Toutes les étapes de LILO se sont déroulées correctement                                                            	| LILO                      	|
+
+| Etape                                                                                                               	| Affichage en cas d'erreur |
+|:---------------------------------------------------------------------------------------------------------------------:|---------------------------	|
+| Le chargeur d'amorçage de la partie 1 est chargé en mémoire et démarré                                              	| L                         |
+| Le chargeur d'amorçage de la partie 2 est chargé en mémoire                                                         	| LI                        |
+| Le chargeur d'amorçage de la partie 2 a été chargé à une adresse incorrecte                                         	| LIL?                      |
+| Démarrage de la partie 2 du chargeur d'amorçage OK, mais la GDT (table des descripteurs de segment) est introuvable 	| LIL                       |
+| La GDT est corrompue                                                                                                	| LIL-                      |
+| Toutes les étapes de LILO se sont déroulées correctement                                                            	| LILO                      |
 
 ![interface lilo](http://windowslinux.free.fr/images/autres/lilo.png"interface lilo")
 
@@ -40,8 +41,8 @@ GNU GRUB (acronyme signifiant en anglais « GRand Unified Bootloader »). C'est 
 La configuration n'est pas extrêmement complexe, il faut connaître :
 le périphérique où se trouve le noyau (kernel) :
 > hd0 : correspond au premier disque,
-  hd1 : correspond au deuxième disque,
-  hd0,2 : correspond au premier disque, 3e partition Grub Legacy, 2e partition Grub23
+>hd1 : correspond au deuxième disque,
+>hd0,2 : correspond au premier disque, 3e partition Grub Legacy, 2e partition Grub23
 
    Le nom du kernel ;
     Le nom du initrd si besoin ;
