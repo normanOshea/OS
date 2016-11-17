@@ -26,7 +26,7 @@ Le MBR est composé de trois zones :
 
 On peut afficher le MBR est en voir le détails grâce à la commande :
 
-__sudo dd if=/dev/sda bs=512 count=1 | hexdump -C__
+* __sudo dd if=/dev/sda bs=512 count=1 | hexdump -C__ *
 
 En claire : 
   En tant que superutilisateur __sudo__ je demande de faire une copie par blocs __dd__ avec comme source __if__ le matériel __/dev/sda__ (premier disque dur), je précise que le bloc désiré doit faire 512 octets et que je ne copie qu'un bloc.
@@ -34,8 +34,7 @@ En claire :
 
 Sur mon disque dur, voici le résultat : 
 
-
-     *Affichage du MBR sous linux*
+![capture MBR linux](http://www2.futaie.org:4280/~rousselotv/lp/cap1.jpg)*Affichage du MBR sous linux*
 
 On remarque les valeurs **55AA** à la fin du MBR. C'est la *marque* d'un media amorçable.
 
