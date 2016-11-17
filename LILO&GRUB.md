@@ -39,14 +39,16 @@ GNU GRUB (acronyme signifiant en anglais « GRand Unified Bootloader »). C'est 
 
 #####**Configuration basique**
 La configuration n'est pas extrêmement complexe, il faut connaître :
-le périphérique où se trouve le noyau (kernel) :
-> hd0 : correspond au premier disque,
->hd1 : correspond au deuxième disque,
->hd0,2 : correspond au premier disque, 3e partition Grub Legacy, 2e partition Grub23
 
-   Le nom du kernel ;
-    Le nom du initrd si besoin ;
-    Puis : boot.
+le périphérique où se trouve le noyau (kernel) :
+* hd0 : correspond au premier disque,
+* hd1 : correspond au deuxième disque,
+* hd0,2 : correspond au premier disque, 3e partition Grub Legacy, 2e partition Grub23
+
+Le nom du kernel ;
+Le nom du initrd si besoin ;
+Puis : boot.
+
 Grâce à un système de prompt interactif, GRUB gère la complétion, ceci permet de retrouver les noms de disque/kernel/initrd si le menu de chargement ne fonctionne plus.
 
 ![interface grub](https://doc.ubuntu-fr.org/lib/exe/fetch.php?tok=616545&media=http%3A%2F%2Fpix.toile-libre.org%2Fupload%2Foriginal%2F1353953772.png"interface grub")
