@@ -24,7 +24,7 @@ Codes erreurs affichés par LILO
 | La GDT est corrompue                                                                                                	| LIL-                      |
 | Toutes les étapes de LILO se sont déroulées correctement                                                            	| LILO                      |
 
-![interface lilo](http://windowslinux.free.fr/images/autres/lilo.png"interface lilo")
+![interface lilo](http://www2.futaie.org:4280/~rousselotv/lp/lilo.png) *inteface lilo*
 
 ### **GRUB**
 GNU GRUB (acronyme signifiant en anglais « GRand Unified Bootloader »). C'est un logiciel libre. Il permet l'amorçage de systèmes GNU/Linux ou Windows (ainsi que d'autres systèmes moins répandus FreeBSD et OpenBSD, Hurd, Solaris), la lecture de la configuration au démarrage (pas besoin de réinstaller GRUB dans le secteur d'amorçage après un changement de configuration, contrairement à LILO), une ligne de commande permettant de changer la configuration au démarrage et surtout la reconnaissance en natif de divers systèmes de fichiers existants.  Langage de commande simple permettant de « rattraper » un amorçage qui se serait mal passé, à la suite du mauvais adressage d'une partition. Il est beaucoup plus volumineux que LILO.
@@ -51,7 +51,7 @@ Puis : boot.
 
 Grâce à un système de prompt interactif, GRUB gère la complétion, ceci permet de retrouver les noms de disque/kernel/initrd si le menu de chargement ne fonctionne plus.
 
-![interface grub](https://doc.ubuntu-fr.org/lib/exe/fetch.php?tok=616545&media=http%3A%2F%2Fpix.toile-libre.org%2Fupload%2Foriginal%2F1353953772.png"interface grub")
+![interface grub](http://www2.futaie.org:4280/~rousselotv/lp/grub.png) *inteface lilo*
 
 ####Sources :
 - ![Wikipedia](https://fr.wikipedia.org/wiki/GNU_GRUB)
