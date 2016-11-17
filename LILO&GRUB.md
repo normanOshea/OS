@@ -45,8 +45,8 @@ le périphérique où se trouve le noyau (kernel) :
 * hd1 : correspond au deuxième disque,
 * hd0,2 : correspond au premier disque, 3e partition Grub Legacy, 2e partition Grub23
 
-Le nom du kernel ;
-Le nom du initrd si besoin ;
+Le nom du kernel.
+Le nom du initrd si besoin.
 Puis : boot.
 
 Grâce à un système de prompt interactif, GRUB gère la complétion, ceci permet de retrouver les noms de disque/kernel/initrd si le menu de chargement ne fonctionne plus.
