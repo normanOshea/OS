@@ -38,8 +38,27 @@ Sur mon disque dur, voici le résultat :
 ![capture MBR linux](https://drive.google.com/file/d/0ByYeiSkwi0AzY0pubkxMajJIOFk/view)
 *affichage du MBR sous linux*
 
+On remarque les valeurs **55AA** à la fin du MBR. C'est la *marque* d'un media amorçable.
+
+#####Partie exécutable
+
+  La première partie, adresses comprises entre **000** et **1b7**, correspond à la partie exécutable du mbr. Elle est chargée en mémoire vive (ainsi que le reste du mbr) lorsque le PC démarre ("boote") sur ce disque. Elle a pour fonction de vérifier la validité de la table des partitions et de rechercher une partition amorçable du disque. 
+
+#####Identifiant du disque
+
+  L'identifiant du disque se situe entre **1b8** et **1bb**. Soit les octets : **12 ed 07 00**.
+  
+#####Le partitionnement
+
+  Le partitionnement du disque démmarre à l'adresse **1be** et chaque partitions à une longueur de 15 octets. 
 
 
+###Problèmes connus
+  
+  Il arrive parfois que la table des partitions soit corrompue pouvant empêcher tout redimensionnement. Ceci peut être la conséquence d'un virus de mbr, de l'utilisation d'un outil pour partitionner inadapté…
+  Un cas classique est le chevauchement des partitions, on aura par exemple sda1 qui se terminera dans la partition sda2 si ta taille indiquée de sda1 est trop grande.
+  
+  Ces problèmes peuvent aussi affecter les partitions logiques et générer aussi un blocage. Il arrive aussi que la taille indiquée d'une partition excède la taille du disque. 
 
 
 ##Sources
@@ -47,4 +66,5 @@ Sur mon disque dur, voici le résultat :
 - [Wiki linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
 - [IBM : Inside the linux boot process](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
 - [Ubuntu-fr](https://doc.ubuntu-fr.org/mbr)
+- http://fr.wikipedia.org/wiki/Master_boot_record
 
