@@ -234,7 +234,7 @@ La fonction principale du noyau est de distribuer l'accès aux ressources de l'o
 Mais un noyau remplis beaucoup d'autres fonctions essentielles au bon fonctionnement d'un ordinateur, nous allons donc voir les principales.
 
 ### Gestion de la Mémoire
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Memoire_virtuelle.svg/220px-Memoire_virtuelle.svg.png">
+![gestion de la mémoire](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Memoire_virtuelle.svg/220px-Memoire_virtuelle.svg.png) *gestion de la mémoire*
 <break>
 <break>
 <break>
@@ -248,8 +248,7 @@ Le noyau a l'accès complet à la mémoire du système et doit permettre aux pro
 <break>
 ###L'Ordonnanceur
  L’ordonnanceur choisit l'ordre d'exécution des processus sur les processeurs d'un ordinateur.
- <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ordonnanceur_noyau_os.svg/300px-Ordonnanceur_noyau_os.svg.png">
- 
+![Ordonnanceur](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ordonnanceur_noyau_os.svg/300px-Ordonnanceur_noyau_os.svg.png) *Ordonnanceur* 
 Celui de Linux est _le Completely Fair Scheduler_, ou ordonnanceur complètement équitable.
 C'est un ordonnanceur de tâches qui a fait son apparition avec la version 2.6.23 sortie le 9 octobre 2007, remplaçant ainsi le précédent ordonnanceur qui était apparu dans le noyau 2.5.2-pre10 en janvier 2002.
 
