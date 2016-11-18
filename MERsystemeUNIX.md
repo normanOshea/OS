@@ -14,23 +14,23 @@
 ###[Rôle du BIOS](#Rôle-du-BIOS)
 ###[Fonctionnalités](#Fonctionnalités)
 ###[Failles potentielles du BIOS](#Failles-potentielles-du-BIOS)
-
+----------
 ##[MBR](#MBR)
 ###[Master Boot Record](#Master-Boot-Record)
 ####[Définition](#Définition)
 ####[Structure du MBR](#Structure-du-MBR)
-####[En détails](#En-détails-:)
+####[En détails](#En-détails)
 #####[Partie exécutable](#Partie-exécutable)
 #####[Identifiant du disque](#Identifiant-du-disque)
 #####[Le partitionnement](#Le-partitionnement)
 ####[Problèmes connus](#Problèmes-connus)
-
-##[ LILO et GRUB](#-**LILO-et-GRUB**)
+----------
+##[LILO et GRUB](#-**LILO-et-GRUB**)
 ####[LILO](#-**LILO**)
 ####[GRUB](#-**GRUB**)
 #####[Fonctionnalités](#**Fonctionnalités**)
 #####[Configuration basique](#**Configuration-basique**)
-
+----------
 ##[Le Kernel ](#Le-Kernel )
 ###[Une définition](#Une-définition)
 ###[L'utilité d'un kernel](#L'utilité-d'un-kernel)
@@ -40,13 +40,15 @@
 ###[L'initialisation du kernel Linux](#L'initialisation-du-kernel-Linux)
 ####[La routine d'initialisation](#La-routine-d'initialisation)
 ####[L'initialisation du noyau et du système](#L'initialisation-du-noyau-et-du-système)
+----------
 ##[Le processus init](#Le-processus-*init*)
 ####[Définition](#Définition)
 ####[Le fichier de configuration /etc/inittab](#Le-fichier-de-configuration-*/etc/inittab*)
 ####[Le répertoire de scripts /etc/rc.d](#Le-répertoire-de-scripts-*/etc/rc.d*)
+----------
 
-###[#Sources](#Sources)
-
+###[Sources](#Sources)
+----------
 
 #Le BIOS
 
