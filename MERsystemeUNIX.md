@@ -383,9 +383,9 @@ https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
 https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
 http://www.linuxpedia.fr/doku.php/util/boot
 
-####Sources pour la partie Init
-- ![Wikipedia](https://fr.wikipedia.org/wiki/GNU_GRUB)
-- ![Linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
+###Sources pour la partie Init
+- [Wikipedia](https://fr.wikipedia.org/wiki/GNU_GRUB)
+- [Linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
 - [IBM](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
 - http://daniel.galvao.free.fr/astrid/coursLinux/x1656.html
 - [Ubuntu-fr](https://doc.ubuntu-fr.org/mbr)
