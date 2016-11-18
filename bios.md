@@ -1,12 +1,3 @@
-##Mise en route d'un OS Linux
-
-**Le processus de démarrage d'un système d'exploitation Linux fonctionne selon plusieurs étapes telles que :**
-* Lecture du BIOS
-* Lecture du MBR ou Master Boot Record
-* Lancement du chargeur Grub ou Lilo
-* Chargement du noyau Linux en mémoire avec chargement de certains drivers via initrd
-* Lancement du processus init
-
 #Le BIOS
 
 ###Définition
