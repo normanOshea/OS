@@ -281,20 +281,6 @@ La tâche init, fonctionnant aussi comme une "thread" de noyau, fait des initial
 
 
 
-###Sources
-https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
-https://en.wikipedia.org/wiki/Linux_startup_process
-http://lxr.linux.no/
-http://duartes.org/gustavo/blog/post/kernel-boot-process/
-http://smoudere.free.fr/demarrage_linux.html
-https://fr.wikipedia.org/wiki/Ordonnancement_dans_les_syst%C3%A8mes_d%27exploitation
-https://fr.wikipedia.org/wiki/Completely_Fair_Scheduler
-http://www.tuxradar.com/content/how-linux-kernel-works
-https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
-https://fr.wikipedia.org/wiki/Abstraction_(informatique)
-https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
-https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
-http://www.linuxpedia.fr/doku.php/util/boot
 
 #Le processus *init*
 
@@ -381,7 +367,23 @@ La plupart des démons du système enregistrent leur numéro de processus dans u
 Après l'exécution des scripts, le processus init lance les processus en mode respawn. Ce sont, en général, les programmes d'invitation à l'ouverture de session. Ces programmes doivent être relancés dès qu'une session se termine.
 
 
-####Sources :
+#Sources
+###Sources pour la partie Kernel
+https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
+https://en.wikipedia.org/wiki/Linux_startup_process
+http://lxr.linux.no/
+http://duartes.org/gustavo/blog/post/kernel-boot-process/
+http://smoudere.free.fr/demarrage_linux.html
+https://fr.wikipedia.org/wiki/Ordonnancement_dans_les_syst%C3%A8mes_d%27exploitation
+https://fr.wikipedia.org/wiki/Completely_Fair_Scheduler
+http://www.tuxradar.com/content/how-linux-kernel-works
+https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
+https://fr.wikipedia.org/wiki/Abstraction_(informatique)
+https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
+https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
+http://www.linuxpedia.fr/doku.php/util/boot
+
+####Sources pour la partie Init
 - ![Wikipedia](https://fr.wikipedia.org/wiki/GNU_GRUB)
 - ![Linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
 - [IBM](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
