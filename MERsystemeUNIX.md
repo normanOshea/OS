@@ -369,18 +369,20 @@ Après l'exécution des scripts, le processus init lance les processus en mode r
 
 #Sources
 ###Sources pour la partie Kernel
+- Wikipedia
 https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
 https://en.wikipedia.org/wiki/Linux_startup_process
-http://lxr.linux.no/
-http://duartes.org/gustavo/blog/post/kernel-boot-process/
-http://smoudere.free.fr/demarrage_linux.html
 https://fr.wikipedia.org/wiki/Ordonnancement_dans_les_syst%C3%A8mes_d%27exploitation
-https://fr.wikipedia.org/wiki/Completely_Fair_Scheduler
-http://www.tuxradar.com/content/how-linux-kernel-works
 https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
 https://fr.wikipedia.org/wiki/Abstraction_(informatique)
 https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
 https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
+- Autres
+http://lxr.linux.no/
+http://duartes.org/gustavo/blog/post/kernel-boot-process/
+http://smoudere.free.fr/demarrage_linux.html
+http://www.tuxradar.com/content/how-linux-kernel-works
+
 http://www.linuxpedia.fr/doku.php/util/boot
 
 ###Sources pour la partie Init
