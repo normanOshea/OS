@@ -7,6 +7,47 @@
 * Chargement du noyau Linux en mémoire avec chargement de certains drivers via initrd
 * Lancement du processus init
 
+
+#Table des matières
+##[LeBIOS](#Le-BIOS)
+###[Définition](#Définition)
+###[Rôle du BIOS](#Rôle-du-BIOS)
+###[Fonctionnalités](#Fonctionnalités)
+###[Failles potentielles du BIOS](#Failles-potentielles-du-BIOS)
+
+##[MBR](#MBR)
+###[Master Boot Record](#Master-Boot-Record)
+####[Définition](#Définition)
+####[Structure du MBR](#Structure-du-MBR)
+####[En détails](#En-détails-:)
+#####[Partie exécutable](#Partie-exécutable)
+#####[Identifiant du disque](#Identifiant-du-disque)
+#####[Le partitionnement](#Le-partitionnement)
+####[Problèmes connus](#Problèmes-connus)
+
+##[ LILO et GRUB](#-**LILO-et-GRUB**)
+####[LILO](#-**LILO**)
+####[GRUB](#-**GRUB**)
+#####[Fonctionnalités](#**Fonctionnalités**)
+#####[Configuration basique](#**Configuration-basique**)
+
+##[Le Kernel ](#Le-Kernel )
+###[Une définition](#Une-définition)
+###[L'utilité d'un kernel](#L'utilité-d'un-kernel)
+####[Gestion de la Mémoire](#-Gestion-de-la-Mémoire)
+####[L'Ordonnanceur](#L'Ordonnanceur)
+###[Le boot d'un Kernel sous Linux, une courte explication](#Le-boot-d'un-Kernel-sous-Linux,-une-courte-explication)
+###[L'initialisation du kernel Linux](#L'initialisation-du-kernel-Linux)
+####[La routine d'initialisation](#La-routine-d'initialisation)
+####[L'initialisation du noyau et du système](#L'initialisation-du-noyau-et-du-système)
+##[Le processus init](#Le-processus-*init*)
+####[Définition](#Définition)
+####[Le fichier de configuration /etc/inittab](#Le-fichier-de-configuration-*/etc/inittab*)
+####[Le répertoire de scripts /etc/rc.d](#Le-répertoire-de-scripts-*/etc/rc.d*)
+
+###[#Sources](#Sources)
+
+
 #Le BIOS
 
 ###Définition
@@ -368,7 +409,6 @@ Après l'exécution des scripts, le processus init lance les processus en mode r
 
 
 #Sources
-###Sources pour la partie Kernel
 - Wikipedia
 https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
 https://en.wikipedia.org/wiki/Linux_startup_process
@@ -377,19 +417,16 @@ https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
 https://fr.wikipedia.org/wiki/Abstraction_(informatique)
 https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
 https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
+https://fr.wikipedia.org/wiki/GNU_GRUB)
 - Autres
 http://lxr.linux.no/
 http://duartes.org/gustavo/blog/post/kernel-boot-process/
 http://smoudere.free.fr/demarrage_linux.html
 http://www.tuxradar.com/content/how-linux-kernel-works
-
 http://www.linuxpedia.fr/doku.php/util/boot
-
-###Sources pour la partie Init
-- [Wikipedia](https://fr.wikipedia.org/wiki/GNU_GRUB)
-- [Linuxpedia](http://www.linuxpedia.fr/doku.php/util/boot)
-- [IBM](http://www.ibm.com/developerworks/linux/library/l-linuxboot/)
-- http://daniel.galvao.free.fr/astrid/coursLinux/x1656.html
-- [Ubuntu-fr](https://doc.ubuntu-fr.org/mbr)
-- http://fr.wikipedia.org/wiki/Master_boot_record
-- [Optimisation du bios](http://www.commentcamarche.net/contents/1022-optimisation-du-bios)
+http://www.linuxpedia.fr/doku.php/util/boot
+http://www.ibm.com/developerworks/linux/library/l-linuxboot/
+http://daniel.galvao.free.fr/astrid/coursLinux/x1656.html
+https://doc.ubuntu-fr.org/mbr
+http://fr.wikipedia.org/wiki/Master_boot_record
+http://www.commentcamarche.net/contents/1022-optimisation-du-bios
