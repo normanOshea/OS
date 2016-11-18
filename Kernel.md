@@ -108,3 +108,20 @@ Cette initialisation va suivre une suite d'étape précise pour permettre de lan
 
 - La tâche kthreadd, fonctionnant comme une "thread" de noyau gère alors les autres "thread "de noyau que kthreadd créé.
 La tâche init, fonctionnant aussi comme une "thread" de noyau, fait des initialisations supplémentaires.
+
+
+
+###Webographie
+https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
+https://en.wikipedia.org/wiki/Linux_startup_process
+http://lxr.linux.no/
+http://duartes.org/gustavo/blog/post/kernel-boot-process/
+http://smoudere.free.fr/demarrage_linux.html
+https://fr.wikipedia.org/wiki/Ordonnancement_dans_les_syst%C3%A8mes_d%27exploitation
+https://fr.wikipedia.org/wiki/Completely_Fair_Scheduler
+http://www.tuxradar.com/content/how-linux-kernel-works
+https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
+https://fr.wikipedia.org/wiki/Abstraction_(informatique)
+https://en.wikipedia.org/wiki/Scheduling_(computing)#Since_Linux_2.6.23
+https://fr.wikipedia.org/wiki/Noyau_de_syst%C3%A8me_d%27exploitation#Fonctions_g.C3.A9n.C3.A9ralement_remplies_par_un_noyau
+http://www.linuxpedia.fr/doku.php/util/boot
